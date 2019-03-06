@@ -1,0 +1,130 @@
+/*----------------header-nav*/
+
+.nav {
+    text-align: center;
+    background-color: #CD7F32;
+    color: white;
+ }
+
+/*----------------header-image*/
+
+.image-container {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 0;
+}
+
+.image {
+    background: url("../images/glasgow.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    z-index: -2;
+}
+
+.image-text {
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*----------------maps*/
+
+.map-container {
+    padding-top: 2px;
+    padding-left: 0px;
+}
+
+        /*bootstrap overriding standard code so this is the reason for # being used */
+#map {
+    min-height: 300px;
+    padding: 0;
+    position: relative;
+    width: 100vw;
+}
+
+#pac-input {
+background-color: #fff;
+font-family: Roboto;
+font-size: 15px;
+font-weight: 300;
+margin-left: 12px;
+padding: 0 11px 0 13px;
+text-overflow: ellipsis;
+width: 50vw;
+}
+
+/*----------------our-treasures-column*/
+.our-treasure {
+    background-color: white;
+    color: #CD7F32;
+}
+
+.hidden-treasures {
+    padding-top: 22px;
+}
+
+
+/*----------------comments-column*/
+.comment-box {
+    background-color: #CD7F32;
+    color: white;
+}
+
+        /*To give the heading padding when the responsive design moves the column below the comments-box*/
+@media screen and (min-width: 768px) {
+  .hidden-treasures {
+    padding-top: 0px;
+  }
+}
+
+        /*To make the comment-box and our-treasures column equal at all times*/
+@media screen and (min-width: 768px) {
+  .comment-box {
+    min-height:630px;
+  }
+}
+
+/*----------------footer*/
+
+footer {
+    text-align: center;
+    background-color: #B2BEB5;
+    color: white;
+    padding-top: 10px;
+    clear: both;
+    margin-bottom: 0px;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #CD7F32;
+}
+
+.list-inline {
+    margin-bottom: 0px;
+}
+
