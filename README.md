@@ -42,7 +42,8 @@ design. Due to the nature of the application users will navigate the site in a n
 - Set up affiliate links that allows local business owners in Glasgow to offer special discounts exclusive to Glasgow Treasures on the page for the users
   to benefit from when visiting
 
-Technologies Used
+## Technologies Used
+
 For this singles page application there was a number of programming languages, frameworks and libraries that were used. These are stated below with an 
 explanation as to why they were used;
 - HTML - The markup language was used as the building blocks allowing us to create the rest of the application
