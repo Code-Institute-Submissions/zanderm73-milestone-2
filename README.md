@@ -29,7 +29,7 @@ design. Due to the nature of the application users will navigate the site in a n
 
 ## Features
 
-	Existing Features
+### Existing Features
 - The Google Maps API search bar allows users to search for specific places around Glasgow and also more generic terms can be used such as ‘Chinese 
   restaurants’. These will then be highlighted with a symbol appropriate to the establishment for example martini glass symbol for a bar
 - The comments section allows users to leave feedback on places that they have visited in Glasgow and would like to share with other people. This same
@@ -37,7 +37,7 @@ design. Due to the nature of the application users will navigate the site in a n
 - Social media links within the footer allow the user to experience Glasgow on a number of media platforms to give them a more in depth of Glasgow prior
   to visiting
 
-	Future Features
+### Future Features
 - Create a way of reading reviews for the places that are searched for within the application so they do not have to leave the site
 - Set up affiliate links that allows local business owners in Glasgow to offer special discounts exclusive to Glasgow Treasures on the page for the users
   to benefit from when visiting
@@ -80,6 +80,8 @@ explanation as to why they were used;
        across devices and browsers. 
     2. Making sure that on all devices a new tab is opened to display the links as the sites are external to website and do not have links back to the
        Glasgow Treasures application
+
+## Issues Faced
 
 While creating the single page application there was a few problems where the solution had to be researched. Embedding the Google Maps API into the
 application and having it be responsive and appealing at the same time was difficult. The way that the code was initially written led to the maps API
